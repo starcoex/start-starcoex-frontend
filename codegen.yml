@@ -1,0 +1,7 @@
+overwrite: true
+schema: "http://localhost:3100"
+documents: "graphql/**/*.graphql"
+generates:
+  gql/graphql.ts:
+    preset: "client"
+    plugins: []
